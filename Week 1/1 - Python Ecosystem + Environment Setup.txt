@@ -1,0 +1,725 @@
+Week 1 — Python Ecosystem + Environment Setup
+
+Main Goal of This Week
+
+By the end of Week 1, you should be able to:
+
+comfortably code in Python for AI/data tasks
+
+use VS Code + Jupyter + Colab efficiently
+
+manage packages and virtual environments
+
+work with files and APIs
+
+use Git/GitHub properly
+
+build and upload a small Python project independently
+
+Weekly Time Structure
+
+Daily Time
+
+2–3 hours/day
+
+6 learning days
+
+1 optional rest/revision day
+
+WEEK 1 ROADMAP
+
+Day
+
+Focus
+
+Day 1
+
+Python Setup + VS Code + Basics
+
+Day 2
+
+Functions + OOP + Modules
+
+Day 3
+
+File Handling + JSON + CSV
+
+Day 4
+
+APIs + Requests + Mini API Project
+
+Day 5
+
+Jupyter + Colab + NumPy/Pandas Intro
+
+Day 6
+
+Git + GitHub + Final Mini Project
+
+Day 7
+
+Optional Revision / Buffer Day
+
+DAY 1 — Python Environment + VS Code + Core Python
+
+Goal
+
+Set up your complete Python development environment and revise Python fundamentals.
+
+Learn
+
+1. Install & Setup
+
+Install:
+
+Python 3.13+
+
+VS Code
+
+Python Extension in VS Code
+
+Jupyter Extension in VS Code
+
+Git
+
+2. Learn VS Code Basics
+
+Learn:
+
+Running Python files
+
+Terminal usage
+
+Extensions
+
+File explorer
+
+Debugging basics
+
+3. Python Fundamentals Refresher
+
+Learn:
+
+Variables
+
+Data types
+
+Lists
+
+Tuples
+
+Dictionaries
+
+Sets
+
+Loops
+
+Conditionals
+
+List comprehensions
+
+Resources
+
+Python
+
+Python Official Docs Tutorial
+
+freeCodeCamp Python Course
+
+(Watch only basics sections)
+
+VS Code
+
+VS Code Python Setup Guide
+
+Practical Tasks
+
+Must Complete Checklist
+
+Environment
+
+Install Python
+
+Install VS Code
+
+Install Git
+
+Configure Python extension
+
+Run first Python program in VS Code
+
+Python Practice
+
+Write programs for:
+
+Prime number checker
+
+Fibonacci generator
+
+Student marks calculator
+
+Dictionary-based contact book
+
+Git
+
+Create GitHub account (if not already)
+
+Create first repository
+
+Push your Python files
+
+Day-End Outcome
+
+You should:
+
+run Python confidently in VS Code
+
+understand core syntax
+
+use GitHub basics
+
+DAY 2 — Functions + OOP + Modules
+
+Goal
+
+Write reusable, structured Python code.
+
+Learn
+
+1. Functions
+
+Learn:
+
+Parameters
+
+Return values
+
+Default arguments
+
+Lambda functions
+
+Scope
+
+2. OOP Basics
+
+Learn:
+
+Classes
+
+Objects
+
+Constructors
+
+Methods
+
+Inheritance basics
+
+3. Modules & Packages
+
+Learn:
+
+Importing modules
+
+Creating your own module
+
+Pip basics
+
+4. Virtual Environments
+
+Learn:
+
+venv
+
+activating environments
+
+installing packages
+
+Resources
+
+Functions + OOP
+
+W3Schools Python OOP Tutorial
+
+Corey Schafer Python OOP Playlist
+
+Virtual Environments
+
+Python venv Docs
+
+Practical Tasks
+
+Must Complete Checklist
+
+Functions
+
+Calculator using functions
+
+Password validator function
+
+Recursive factorial function
+
+OOP
+
+Build:
+
+Student class
+
+Bank account class
+
+Library management mini system
+
+Virtual Environments
+
+Create virtual environment
+
+Activate/deactivate it
+
+Install requests package
+
+Modules
+
+Create your own utility module
+
+Import it into another file
+
+Day-End Outcome
+
+You should:
+
+write modular Python programs
+
+understand OOP structure
+
+use virtual environments
+
+DAY 3 — File Handling + JSON + CSV Processing
+
+Goal
+
+Handle real-world data files.
+
+Learn
+
+1. File Handling
+
+Learn:
+
+Reading files
+
+Writing files
+
+Appending
+
+Context managers (with open())
+
+2. JSON
+
+Learn:
+
+JSON structure
+
+Reading/writing JSON
+
+Serialization/deserialization
+
+3. CSV Handling
+
+Learn:
+
+csv module
+
+pandas basics for CSVs
+
+Resources
+
+File Handling
+
+Python File Handling Docs
+
+JSON
+
+Python JSON Docs
+
+CSV + Pandas
+
+Pandas Getting Started Guide
+
+Practical Tasks
+
+Must Complete Checklist
+
+File Handling
+
+Notes app using text files
+
+Log file writer
+
+JSON
+
+Store student records in JSON
+
+Read and update JSON data
+
+CSV
+
+Read CSV dataset
+
+Calculate averages
+
+Filter rows
+
+Export processed CSV
+
+Mini Challenge
+
+Build:
+
+CSV Student Analyzer
+
+Features:
+
+Reads CSV
+
+Finds topper
+
+Calculates averages
+
+Exports report
+
+Day-End Outcome
+
+You should:
+
+manipulate datasets using Python
+
+understand structured data formats
+
+DAY 4 — APIs + Requests + HTTP Basics
+
+Goal
+
+Learn how AI applications communicate with services.
+
+Learn
+
+1. HTTP Basics
+
+Learn:
+
+GET
+
+POST
+
+Status codes
+
+Headers
+
+JSON responses
+
+2. Python Requests Library
+
+Learn:
+
+Sending requests
+
+Parsing JSON
+
+Handling API keys
+
+3. API Testing
+
+Learn:
+
+Postman basics
+
+Resources
+
+APIs
+
+freeCodeCamp APIs for Beginners
+
+Requests
+
+Requests Documentation
+
+Practical Tasks
+
+Must Complete Checklist
+
+Requests Practice
+
+Fetch weather data
+
+Fetch GitHub profile data
+
+Parse JSON response
+
+Error Handling
+
+Handle invalid requests
+
+Handle timeouts
+
+Mini Project
+
+Build:
+
+Weather API Dashboard
+
+Features:
+
+User enters city
+
+Fetch weather
+
+Display temperature/humidity
+
+Save searches to JSON
+
+Day-End Outcome
+
+You should:
+
+work with APIs confidently
+
+understand backend communication
+
+DAY 5 — Jupyter Notebook + Google Colab + NumPy/Pandas Intro
+
+Goal
+
+Start working like a real data scientist.
+
+Learn
+
+1. Jupyter Notebook
+
+Learn:
+
+Cells
+
+Markdown
+
+Running notebooks
+
+2. Google Colab
+
+Learn:
+
+Using GPUs
+
+Uploading datasets
+
+Sharing notebooks
+
+3. NumPy Intro
+
+Learn:
+
+Arrays
+
+Shapes
+
+Broadcasting
+
+Matrix operations
+
+4. Pandas Intro
+
+Learn:
+
+DataFrames
+
+Filtering
+
+Basic statistics
+
+Resources
+
+Jupyter
+
+Jupyter Notebook Beginner Guide
+
+NumPy
+
+NumPy Quickstart
+
+Pandas
+
+Pandas 10 Minutes to Pandas
+
+Practical Tasks
+
+Must Complete Checklist
+
+Jupyter
+
+Create notebook
+
+Add markdown explanations
+
+Run cells properly
+
+NumPy
+
+Create arrays
+
+Matrix multiplication
+
+Array slicing
+
+Pandas
+
+Load dataset
+
+Filter rows
+
+Find statistics
+
+Plot simple graph
+
+Mini Challenge
+
+Analyze Kaggle dataset in notebook
+
+Day-End Outcome
+
+You should:
+
+use notebooks professionally
+
+manipulate data using NumPy/Pandas
+
+DAY 6 — Git/GitHub Workflow + Final Project
+
+Goal
+
+Learn industry-level project workflow.
+
+Learn
+
+Git Concepts
+
+Branching
+
+Commits
+
+Pull requests
+
+README writing
+
+.gitignore
+
+GitHub Workflow
+
+Clone repo
+
+Push changes
+
+Create branches
+
+Merge changes
+
+Resources
+
+Git
+
+Git Handbook by GitHub
+
+Git Branching Visual Guide
+
+Final Project
+
+Choose ONE
+
+Option 1 — CSV Analyzer
+
+Features:
+
+Load CSV
+
+Statistics
+
+Search/filter
+
+Export report
+
+Option 2 — Weather Dashboard
+
+Features:
+
+API integration
+
+JSON storage
+
+Error handling
+
+CLI UI
+
+Final Project Checklist
+
+Create proper folder structure
+
+Use virtual environment
+
+Add requirements.txt
+
+Add README.md
+
+Push to GitHub
+
+Make at least 5 commits
+
+Create one feature branch
+
+Merge branch properly
+
+End of Week 1 — Success Criteria
+
+By the end of this week, you should be able to:
+
+Python
+
+Write structured Python programs
+
+Use OOP basics
+
+Handle files and JSON
+
+Tools
+
+Use VS Code efficiently
+
+Use Jupyter/Colab
+
+Manage virtual environments
+
+Data
+
+Read/write CSVs
+
+Use basic Pandas/NumPy
+
+APIs
+
+Consume REST APIs
+
+Parse JSON responses
+
+GitHub
+
+Push projects professionally
+
+Use branches and commits
+
+MOST IMPORTANT RULE FOR THIS JOURNEY
+
+Do NOT move to Week 2 unless:
+
+you completed the mini project,
+
+pushed it to GitHub,
+
+and can explain every line of code yourself.
+
+That single habit will accelerate your growth massively.
